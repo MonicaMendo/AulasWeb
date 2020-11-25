@@ -1,0 +1,30 @@
+h1,h2 {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+h2:hover {
+    color: rgb(133, 23, 133);
+}
+p:nth-child(n+2) {
+    color: yellow;
+}
+
+p:last-child {
+    color: blueviolet;
+    font-size: 22px;
+}
+
+p:nth-child(even) {
+    color: teal;
+}
+
+p:nth-child(odd) {
+    color: tomato;
+}
+
+p:first-child {
+    font-size: 18px;
+    color: blue;
+}
+
